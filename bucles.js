@@ -18,7 +18,9 @@ if (gatosAdopcion > 10){
         document.body.appendChild(txtGato);
 }
 
-for (let i=0; i<donaciones; i++){
+let donaciones = 10;
+
+for (let i=0; i<donaciones; i++) {
     console.log(`Estimado socio, gracias por tu donación ${i}. Has hecho feliz a muchos gatitos.`);
 }
 
@@ -40,7 +42,7 @@ for (let i=0; i<donaciones; i++){
  * Ejercicio 3: Progats tiene registrado en la variable 'numDonaciones' las donaciones diarias que recibe. Queremos enviar un mail de agradecimiento a todos los empleados al final del día. Escribe un bucle que simule que envíamos un correo indicando el número de donación y un mensaje de agradecimiento.
  */
 
-let donaciones = 10; // REESTRICCIÓN: Este dato nos viene de base de datos. NO PODEMOS CAMBIAR EL VALOR DE LA VARIABLE.
+//let donaciones = 10; // REESTRICCIÓN: Este dato nos viene de base de datos. NO PODEMOS CAMBIAR EL VALOR DE LA VARIABLE.
 
 
 // ejemplo de lo que se verá por consola del Chrome:
