@@ -2,15 +2,25 @@
  * Porgats nos ha pedido que creemos tantos iconos de gatitos como gatitos hay por adoptar.
  */
 
-for (let i=0; i<gatosAdopcion; i++) {
-    const imagenGato = document.createElement("img");
-    imagenGato.src = "/img/logo.webp";
-    imagenGato.style.width = "50px";
 
-    document.body.appendChild(imagenGato);
+for (let i=0; i<10; i++) {
+        const imagenGato = document.createElement("img");
+        imagenGato.src = "https://thiscatdoesnotexist.com/";
+        imagenGato.style.width = "50px";
+    
+        document.body.appendChild(imagenGato);
 }
 
+if (gatosAdopcion > 10){
+    const txtGato = document.createElement("p");
+        txtGato.innerHTML = `<a href='#'>Haz click aquí para cargar más gatos</a>`;
+    
+        document.body.appendChild(txtGato);
+}
 
+for (let i=0; i<donaciones; i++){
+    console.log(`Estimado socio, gracias por tu donación ${i}. Has hecho feliz a muchos gatitos.`);
+}
 
 
 
